@@ -1,184 +1,125 @@
-main.o: c:/devkitProProjects/wii/USB_Toggle/source/main.c \
- c:/devkitPro/libogc/include/gccore.h \
- c:/devkitPro/libogc/include/ogc/dsp.h \
- c:/devkitPro/libogc/include/gctypes.h \
- c:/devkitPro/libogc/include/ogc/aram.h \
- c:/devkitPro/libogc/include/ogc/arqueue.h \
- c:/devkitPro/libogc/include/ogc/lwp_queue.h \
- c:/devkitPro/libogc/include/ogc/aram.h \
- c:/devkitPro/libogc/include/ogc/arqmgr.h \
- c:/devkitPro/libogc/include/ogc/audio.h \
- c:/devkitPro/libogc/include/ogc/cache.h \
- c:/devkitPro/libogc/include/ogc/card.h \
- c:/devkitPro/libogc/include/ogc/cast.h \
- c:/devkitPro/libogc/include/ogc/color.h \
- c:/devkitPro/libogc/include/ogc/consol.h \
- c:/devkitPro/libogc/include/ogc/gx_struct.h \
- c:/devkitPro/libogc/include/ogc/dvd.h \
- c:/devkitPro/libogc/include/ogc/disc_io.h \
- c:/devkitPro/libogc/include/ogc/exi.h \
- c:/devkitPro/libogc/include/ogc/gu.h \
- c:/devkitPro/libogc/include/ogc/gx.h \
- c:/devkitPro/libogc/include/ogc/lwp.h \
- c:/devkitPro/libogc/include/ogc/gu.h \
- c:/devkitPro/libogc/include/ogc/si.h \
- c:/devkitPro/libogc/include/ogc/gx_struct.h \
- c:/devkitPro/libogc/include/ogc/irq.h \
- c:/devkitPro/libogc/include/ogc/context.h \
- c:/devkitPro/libogc/include/ogc/lwp.h \
- c:/devkitPro/libogc/include/ogc/mutex.h \
- c:/devkitPro/libogc/include/ogc/message.h \
- c:/devkitPro/libogc/include/ogc/semaphore.h \
- c:/devkitPro/libogc/include/ogc/pad.h \
- c:/devkitPro/libogc/include/ogc/tpl.h \
- c:/devkitPro/libogc/include/ogc/gx.h \
- c:/devkitPro/libogc/include/ogc/system.h \
- c:/devkitPro/libogc/include/gcutil.h \
- c:/devkitPro/libogc/include/ogc/video.h \
- c:/devkitPro/libogc/include/ogc/video_types.h \
- c:/devkitPro/libogc/include/ogc/usbgecko.h \
- c:/devkitPro/libogc/include/ogc/video_types.h \
- c:/devkitPro/libogc/include/ogc/texconv.h \
- c:/devkitPro/libogc/include/ogc/ipc.h \
- c:/devkitPro/libogc/include/ogc/es.h \
- c:/devkitPro/libogc/include/ogc/stm.h \
- c:/devkitPro/libogc/include/ogc/ios.h \
- c:/devkitPro/libogc/include/ogc/usb.h \
- c:/devkitPro/libogc/include/ogc/isfs.h \
- c:/devkitPro/libogc/include/ogc/conf.h \
- c:/devkitPro/libogc/include/ogc/usbstorage.h \
- c:/devkitPro/libogc/include/ogc/mutex.h \
- c:/devkitPro/libogc/include/ogc/system.h \
- c:/devkitPro/libogc/include/ogc/wiilaunch.h \
- c:/devkitPro/libogc/include/wiiuse/wpad.h \
- c:/devkitPro/libogc/include/wiiuse/wiiuse.h \
- c:/devkitPro/libogc/include/bte/bte.h \
- c:/devkitPro/libogc/include/bte/bd_addr.h \
- c:/devkitPro/libogc/include/ogc/ipc.h \
- c:/devkitPro/libogc/include/ogc/lwp_watchdog.h \
- c:/devkitPro/libogc/include/ogc/lwp_queue.h \
- c:/devkitPro/libogc/include/ogc/usbstorage.h \
- c:/devkitProProjects/wii/USB_Toggle/source/USBI.h \
- c:/devkitPro/libogc/include/ogc/usb.h
-
-c:/devkitPro/libogc/include/gccore.h:
-
-c:/devkitPro/libogc/include/ogc/dsp.h:
-
-c:/devkitPro/libogc/include/gctypes.h:
-
-c:/devkitPro/libogc/include/ogc/aram.h:
-
-c:/devkitPro/libogc/include/ogc/arqueue.h:
-
-c:/devkitPro/libogc/include/ogc/lwp_queue.h:
-
-c:/devkitPro/libogc/include/ogc/aram.h:
-
-c:/devkitPro/libogc/include/ogc/arqmgr.h:
-
-c:/devkitPro/libogc/include/ogc/audio.h:
-
-c:/devkitPro/libogc/include/ogc/cache.h:
-
-c:/devkitPro/libogc/include/ogc/card.h:
-
-c:/devkitPro/libogc/include/ogc/cast.h:
-
-c:/devkitPro/libogc/include/ogc/color.h:
-
-c:/devkitPro/libogc/include/ogc/consol.h:
-
-c:/devkitPro/libogc/include/ogc/gx_struct.h:
-
-c:/devkitPro/libogc/include/ogc/dvd.h:
-
-c:/devkitPro/libogc/include/ogc/disc_io.h:
-
-c:/devkitPro/libogc/include/ogc/exi.h:
-
-c:/devkitPro/libogc/include/ogc/gu.h:
-
-c:/devkitPro/libogc/include/ogc/gx.h:
-
-c:/devkitPro/libogc/include/ogc/lwp.h:
-
-c:/devkitPro/libogc/include/ogc/gu.h:
-
-c:/devkitPro/libogc/include/ogc/si.h:
-
-c:/devkitPro/libogc/include/ogc/gx_struct.h:
-
-c:/devkitPro/libogc/include/ogc/irq.h:
-
-c:/devkitPro/libogc/include/ogc/context.h:
-
-c:/devkitPro/libogc/include/ogc/lwp.h:
-
-c:/devkitPro/libogc/include/ogc/mutex.h:
-
-c:/devkitPro/libogc/include/ogc/message.h:
-
-c:/devkitPro/libogc/include/ogc/semaphore.h:
-
-c:/devkitPro/libogc/include/ogc/pad.h:
-
-c:/devkitPro/libogc/include/ogc/tpl.h:
-
-c:/devkitPro/libogc/include/ogc/gx.h:
-
-c:/devkitPro/libogc/include/ogc/system.h:
-
-c:/devkitPro/libogc/include/gcutil.h:
-
-c:/devkitPro/libogc/include/ogc/video.h:
-
-c:/devkitPro/libogc/include/ogc/video_types.h:
-
-c:/devkitPro/libogc/include/ogc/usbgecko.h:
-
-c:/devkitPro/libogc/include/ogc/video_types.h:
-
-c:/devkitPro/libogc/include/ogc/texconv.h:
-
-c:/devkitPro/libogc/include/ogc/ipc.h:
-
-c:/devkitPro/libogc/include/ogc/es.h:
-
-c:/devkitPro/libogc/include/ogc/stm.h:
-
-c:/devkitPro/libogc/include/ogc/ios.h:
-
-c:/devkitPro/libogc/include/ogc/usb.h:
-
-c:/devkitPro/libogc/include/ogc/isfs.h:
-
-c:/devkitPro/libogc/include/ogc/conf.h:
-
-c:/devkitPro/libogc/include/ogc/usbstorage.h:
-
-c:/devkitPro/libogc/include/ogc/mutex.h:
-
-c:/devkitPro/libogc/include/ogc/system.h:
-
-c:/devkitPro/libogc/include/ogc/wiilaunch.h:
-
-c:/devkitPro/libogc/include/wiiuse/wpad.h:
-
-c:/devkitPro/libogc/include/wiiuse/wiiuse.h:
-
-c:/devkitPro/libogc/include/bte/bte.h:
-
-c:/devkitPro/libogc/include/bte/bd_addr.h:
-
-c:/devkitPro/libogc/include/ogc/ipc.h:
-
-c:/devkitPro/libogc/include/ogc/lwp_watchdog.h:
-
-c:/devkitPro/libogc/include/ogc/lwp_queue.h:
-
-c:/devkitPro/libogc/include/ogc/usbstorage.h:
-
-c:/devkitProProjects/wii/USB_Toggle/source/USBI.h:
-
-c:/devkitPro/libogc/include/ogc/usb.h:
+main.o: /home/htv04/Documents/GitHub/HTV04/USB_Toggle/source/main.c \
+ /opt/devkitpro/libogc/include/gccore.h \
+ /opt/devkitpro/libogc/include/ogc/dsp.h \
+ /opt/devkitpro/libogc/include/gctypes.h \
+ /opt/devkitpro/libogc/include/ogc/aram.h \
+ /opt/devkitpro/libogc/include/gcbool.h \
+ /opt/devkitpro/libogc/include/ogc/arqueue.h \
+ /opt/devkitpro/libogc/include/ogc/lwp_queue.h \
+ /opt/devkitpro/libogc/include/ogc/aram.h \
+ /opt/devkitpro/libogc/include/ogc/arqmgr.h \
+ /opt/devkitpro/libogc/include/ogc/audio.h \
+ /opt/devkitpro/libogc/include/ogc/cache.h \
+ /opt/devkitpro/libogc/include/ogc/card.h \
+ /opt/devkitpro/libogc/include/ogc/cast.h \
+ /opt/devkitpro/libogc/include/ogc/color.h \
+ /opt/devkitpro/libogc/include/ogc/consol.h \
+ /opt/devkitpro/libogc/include/ogc/gx_struct.h \
+ /opt/devkitpro/libogc/include/ogc/dvd.h \
+ /opt/devkitpro/libogc/include/ogc/disc_io.h \
+ /opt/devkitpro/libogc/include/ogc/exi.h \
+ /opt/devkitpro/libogc/include/ogc/gu.h \
+ /opt/devkitpro/libogc/include/ogc/gx.h \
+ /opt/devkitpro/libogc/include/ogc/lwp.h \
+ /opt/devkitpro/libogc/include/ogc/gu.h \
+ /opt/devkitpro/libogc/include/ogc/si.h \
+ /opt/devkitpro/libogc/include/ogc/gx_struct.h \
+ /opt/devkitpro/libogc/include/ogc/irq.h \
+ /opt/devkitpro/libogc/include/ogc/context.h \
+ /opt/devkitpro/libogc/include/ogc/lwp.h \
+ /opt/devkitpro/libogc/include/ogc/mutex.h \
+ /opt/devkitpro/libogc/include/ogc/message.h \
+ /opt/devkitpro/libogc/include/ogc/semaphore.h \
+ /opt/devkitpro/libogc/include/ogc/pad.h \
+ /opt/devkitpro/libogc/include/ogc/tpl.h \
+ /opt/devkitpro/libogc/include/ogc/gx.h \
+ /opt/devkitpro/libogc/include/ogc/system.h \
+ /opt/devkitpro/libogc/include/gcutil.h \
+ /opt/devkitpro/libogc/include/ogc/video.h \
+ /opt/devkitpro/libogc/include/ogc/video_types.h \
+ /opt/devkitpro/libogc/include/ogc/usbgecko.h \
+ /opt/devkitpro/libogc/include/ogc/video_types.h \
+ /opt/devkitpro/libogc/include/ogc/texconv.h \
+ /opt/devkitpro/libogc/include/ogc/ipc.h \
+ /opt/devkitpro/libogc/include/ogc/es.h \
+ /opt/devkitpro/libogc/include/ogc/stm.h \
+ /opt/devkitpro/libogc/include/ogc/ios.h \
+ /opt/devkitpro/libogc/include/ogc/usb.h \
+ /opt/devkitpro/libogc/include/ogc/isfs.h \
+ /opt/devkitpro/libogc/include/ogc/conf.h \
+ /opt/devkitpro/libogc/include/ogc/usbstorage.h \
+ /opt/devkitpro/libogc/include/ogc/mutex.h \
+ /opt/devkitpro/libogc/include/ogc/system.h \
+ /opt/devkitpro/libogc/include/ogc/wiilaunch.h \
+ /opt/devkitpro/libogc/include/wiiuse/wpad.h \
+ /opt/devkitpro/libogc/include/wiiuse/wiiuse.h \
+ /opt/devkitpro/libogc/include/bte/bte.h \
+ /opt/devkitpro/libogc/include/bte/bd_addr.h \
+ /opt/devkitpro/libogc/include/ogc/ipc.h \
+ /opt/devkitpro/libogc/include/ogc/lwp_watchdog.h \
+ /opt/devkitpro/libogc/include/ogc/lwp_queue.h \
+ /opt/devkitpro/libogc/include/ogc/usbstorage.h \
+ /home/htv04/Documents/GitHub/HTV04/USB_Toggle/source/USBI.h \
+ /opt/devkitpro/libogc/include/ogc/usb.h
+/opt/devkitpro/libogc/include/gccore.h:
+/opt/devkitpro/libogc/include/ogc/dsp.h:
+/opt/devkitpro/libogc/include/gctypes.h:
+/opt/devkitpro/libogc/include/ogc/aram.h:
+/opt/devkitpro/libogc/include/gcbool.h:
+/opt/devkitpro/libogc/include/ogc/arqueue.h:
+/opt/devkitpro/libogc/include/ogc/lwp_queue.h:
+/opt/devkitpro/libogc/include/ogc/aram.h:
+/opt/devkitpro/libogc/include/ogc/arqmgr.h:
+/opt/devkitpro/libogc/include/ogc/audio.h:
+/opt/devkitpro/libogc/include/ogc/cache.h:
+/opt/devkitpro/libogc/include/ogc/card.h:
+/opt/devkitpro/libogc/include/ogc/cast.h:
+/opt/devkitpro/libogc/include/ogc/color.h:
+/opt/devkitpro/libogc/include/ogc/consol.h:
+/opt/devkitpro/libogc/include/ogc/gx_struct.h:
+/opt/devkitpro/libogc/include/ogc/dvd.h:
+/opt/devkitpro/libogc/include/ogc/disc_io.h:
+/opt/devkitpro/libogc/include/ogc/exi.h:
+/opt/devkitpro/libogc/include/ogc/gu.h:
+/opt/devkitpro/libogc/include/ogc/gx.h:
+/opt/devkitpro/libogc/include/ogc/lwp.h:
+/opt/devkitpro/libogc/include/ogc/gu.h:
+/opt/devkitpro/libogc/include/ogc/si.h:
+/opt/devkitpro/libogc/include/ogc/gx_struct.h:
+/opt/devkitpro/libogc/include/ogc/irq.h:
+/opt/devkitpro/libogc/include/ogc/context.h:
+/opt/devkitpro/libogc/include/ogc/lwp.h:
+/opt/devkitpro/libogc/include/ogc/mutex.h:
+/opt/devkitpro/libogc/include/ogc/message.h:
+/opt/devkitpro/libogc/include/ogc/semaphore.h:
+/opt/devkitpro/libogc/include/ogc/pad.h:
+/opt/devkitpro/libogc/include/ogc/tpl.h:
+/opt/devkitpro/libogc/include/ogc/gx.h:
+/opt/devkitpro/libogc/include/ogc/system.h:
+/opt/devkitpro/libogc/include/gcutil.h:
+/opt/devkitpro/libogc/include/ogc/video.h:
+/opt/devkitpro/libogc/include/ogc/video_types.h:
+/opt/devkitpro/libogc/include/ogc/usbgecko.h:
+/opt/devkitpro/libogc/include/ogc/video_types.h:
+/opt/devkitpro/libogc/include/ogc/texconv.h:
+/opt/devkitpro/libogc/include/ogc/ipc.h:
+/opt/devkitpro/libogc/include/ogc/es.h:
+/opt/devkitpro/libogc/include/ogc/stm.h:
+/opt/devkitpro/libogc/include/ogc/ios.h:
+/opt/devkitpro/libogc/include/ogc/usb.h:
+/opt/devkitpro/libogc/include/ogc/isfs.h:
+/opt/devkitpro/libogc/include/ogc/conf.h:
+/opt/devkitpro/libogc/include/ogc/usbstorage.h:
+/opt/devkitpro/libogc/include/ogc/mutex.h:
+/opt/devkitpro/libogc/include/ogc/system.h:
+/opt/devkitpro/libogc/include/ogc/wiilaunch.h:
+/opt/devkitpro/libogc/include/wiiuse/wpad.h:
+/opt/devkitpro/libogc/include/wiiuse/wiiuse.h:
+/opt/devkitpro/libogc/include/bte/bte.h:
+/opt/devkitpro/libogc/include/bte/bd_addr.h:
+/opt/devkitpro/libogc/include/ogc/ipc.h:
+/opt/devkitpro/libogc/include/ogc/lwp_watchdog.h:
+/opt/devkitpro/libogc/include/ogc/lwp_queue.h:
+/opt/devkitpro/libogc/include/ogc/usbstorage.h:
+/home/htv04/Documents/GitHub/HTV04/USB_Toggle/source/USBI.h:
+/opt/devkitpro/libogc/include/ogc/usb.h:
